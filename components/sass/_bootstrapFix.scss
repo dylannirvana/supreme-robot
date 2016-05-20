@@ -1,0 +1,228 @@
+// /**  Header Navigation **/
+//
+// #{headings()} {
+//   text-align: center;
+// }
+//
+// .featurette, .featurette-heading {
+//   text-align: right;
+// }
+// .featurette-two, .featurette-heading-two {
+//   text-align: left;
+// }
+//
+// .address {
+//   color: $gray;
+// }
+// .social i.fa {
+//   color: lighten($gray, 10%);
+// }
+// .blog-title {
+//   padding-top: 26px;
+// }
+// .blog-description {
+//   text-align: center;
+// }
+// .blog-post, .blog-sidebar {
+//
+//   #{headings()} {
+//     text-align: left;
+//   }
+// }
+// .blog-footer {
+//   text-align: right;
+//   margin-right: 45px;
+//   padding-bottom: 25px;
+// }
+//   .nav a {
+//     font-weight: $bold;
+//     text-transform: uppercase;
+//   }
+//
+// header {
+//
+//   .navbar {
+//     padding: 30px 0;
+//     transition: all 5s ease-out;
+//     font-size: 1em;
+//
+//   }
+//
+//   .navbar-default {
+//     background-color: transparent;
+//     border: none;
+//
+//     .navbar-nav {
+//
+//       >li>a {
+//         font-family: $fontSerif;
+//         font-weight: $thin;
+//         display: inline-block;
+//       }
+//
+//       a {
+//         color: white;
+//         padding: 5px 8px;
+//       }
+//
+//       a:hover {
+//         color: $yellow;
+//       }
+//
+//       .active {
+//         a {
+//           font-weight: $thin;
+//           color: $yellow;
+//           background: transparent;
+//           border-bottom: 2px solid $yellow;
+//           text-shadow: none;
+//         }
+//
+//         a:hover {
+//           color: $yellow;
+//           background: transparent;
+//           text-shadow: none;
+//         } // hover
+//       } // active
+//     } // navbar nav
+//   } // navbar default
+//
+// /**  Navbar Brand **/
+//
+//   // .navbar-brand {
+//   //   background-repeat: no-repeat;
+//   //   background-position: 15px 0;
+//   //   height: auto;
+//
+//   //   h1 {
+//   //     color: white;
+//   //     margin: 0;
+//   //     font-size: 1.8em;
+//   //     font-weight: 400;
+//   //     padding-left: 105px;
+//   //   }
+//
+//   //   span.subhead {
+//   //     display: block;
+//   //     font-family: $fontScript;
+//   //     font-size: .6em;
+//   //     font-weight: 100;
+//   //   }
+//   // } // navbar brand
+//
+//   /**  Navbar Toggle **/
+//   .navbar-toggle {
+//     background-color: $gray;
+//   }
+//
+//   .navbar-default .navbar-toggle .icon-bar {
+//     background-color: white;
+//   }
+//
+// /**  nav inbody **/
+//   .inbody {
+//     // background: rgba(104,73,49,.9);
+//     background: $gray;
+//     @include opacity(.5);
+//
+//     // .navbar-brand {
+//     //   background-size: 43px;
+//     //   background-position: top left;
+//     //   margin-top: 5px;
+//     //   padding-bottom: 0;
+//     //   margin-left: 10px;
+//
+//     //   h1 {
+//     //     font-size: 1.1em;
+//     //     padding-left: 38px;
+//     //   }
+//
+//     //   span.subhead {
+//     //     display: none;
+//     //   }
+//     // }
+//   } // inbody
+//
+//   .navbar.inbody {
+//     padding-top: 0;
+//     padding-bottom: 0;
+//
+//     .navbar-nav {
+//       padding-top: 10px;
+//     }
+//   }
+// } // header
+//
+// // Carousel Fade
+// .carousel.fade {
+//   opacity: 1;
+//
+//   .item {
+//     transition: opacity ease-out .7s;
+//     left: 0;
+//     opacity: 0;
+//     top: 0;
+//     position: absolute;
+//     width: 100%;
+//     display: block;
+//
+//     &:first-child {
+//       top: auto;
+//       opacity: 0;
+//       position: relative;
+//     }
+//
+//   } // item
+//
+//   .item.active {
+//     opacity: 1;
+//   }
+// } // carousel fade
+//
+// .carousel-control {
+//   opacity: 0;
+// }
+//
+// .carousel-control.right,
+// .carousel-control.left {
+//   background-image: none;
+// }
+//
+// #featured .item {
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   width: 100%;
+//   height: 100%;
+// }
+//
+// // Grayscale and "duotone" of images
+// #featured .carousel-inner {
+//   -webkit-filter: grayscale(9);
+//   -webkit-filter: grayscale(90%);
+//   filter: grayscale(90%);
+//   filter: url(#greyscale);
+//   filter: gray;
+//
+//   &:hover {
+//     -webkit-filter: grayscale(.6);
+//     -webkit-filter: grayscale(60%);
+//     filter: grayscale(60%);
+//     filter: url(#greyscale);
+//     filter: gray;
+//   }
+// }
+//
+// @media only screen
+// and (max-width: 768px) {
+//   header .navbar-collapse.in {
+//     background-color: rgba(0,0,0, .5);
+//   }
+// }
+//
+// footer.footer {
+//   bottom: 0;
+//   height: 65px;
+//   background-color: $ltGray;
+//   width: 100%;
+// }

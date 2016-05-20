@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+.tmp
+.sass-cache
+builds/**/images/*
+builds/**/img/*
+components/bootstrap/*
+projectNotes/*
+bower_components/*
+images/*
+wordpress/*

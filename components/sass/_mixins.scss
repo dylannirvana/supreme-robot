@@ -1,0 +1,75 @@
+@mixin backImage(
+	$image,
+	$grDir: to bottom,
+	$opStart: 0,
+	$opEnd: 0,
+	$bgPos: center center
+	) {
+	background: linear-gradient(
+		$grDir,
+		rgba(0,0,0, $opStart),
+		rgba(0,0,0, $opEnd)
+		), url($image); 
+	background-repeat: no-repeat;
+	background-position: $bgPos;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+} // backImage
+
+// Simple background image
+@mixin smBackImage {
+	// background: url($image); 
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@mixin fade(
+	// $image,
+	$grDir: to bottom,
+	$opStart: .40,
+	$opEnd: 0,
+	$bgPos: center center
+	) {
+	background: linear-gradient(
+		$grDir,
+		$yellow,
+		$light
+		); 
+	background-repeat: no-repeat;
+	background-position: $bgPos;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+} // fade
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	} // before, after
+	&:after {
+		clear: both;
+	} // after
+} // clearfix
+
+// Opacity
+@mixin opacity($opacity) {
+  @include for-legacy-browser("ie", "8", $threshold: $opacity-usage-threshold) {
+    @if $opacity == 1 {
+      filter: unquote("progid:DXImageTransform.Microsoft.Alpha(enabled=false)");
+    }
+    @else {
+      filter: unquote("progid:DXImageTransform.Microsoft.Alpha(Opacity=#{round($opacity * 100)})");
+    }
+  }
+ 
+  opacity: $opacity;
+}

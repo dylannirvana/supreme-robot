@@ -1,0 +1,169 @@
+/*
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+------------------------------------------------
+Gulp Styles
+------------------------------------------------
+
+1.0 Compass imports
+  1.0 Compass
+2.0 External Libraries
+  2.1 Susy, Breakpoint
+3.0 Core Partials
+  3.1 Variables
+  3.2 Mixins
+  3.3 Base
+  3.4 Layout
+4.0 Import Modules
+  4.1 Brand
+  4.2 Mission
+  4.3 Season
+  4.4 Players
+  4.5 News
+  4.6 Education
+  4.7 Sponsor
+5.0 Footers
+  5.1 Main Footer
+6.0 Navigation
+  6.1 Main Nav
+7.0 Bootstrap
+  7.1 Bootstrap CDN
+  7.2 Bootstrap Overwrites
+
+------------------------------------------------
+END TABLE OF CONTENTS
+------------------------------------------------
+
+--------------------------------------------------------------*/
+
+
+// 1.0 Compass imports
+/*--------------------------------------------------------------
+1.1 Compass
+--------------------------------------------------------------*/
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+@import 'compass/css3/filter';
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+
+// 2.0 External Libraries
+/*--------------------------------------------------------------
+2.1 Susy, Breakpoint
+--------------------------------------------------------------*/
+@import "susy";
+@import "breakpoint";
+
+// 3.0 Core Partials
+/*--------------------------------------------------------------
+3.1 Variables
+--------------------------------------------------------------*/
+@import "variables";
+@import "bootstrapFix";
+/*--------------------------------------------------------------
+3.2 Mixins
+--------------------------------------------------------------*/
+
+@import "mixins";
+
+/*--------------------------------------------------------------
+3.3 Base
+--------------------------------------------------------------*/
+
+@import "base";
+
+/*--------------------------------------------------------------
+3.4 Layout
+--------------------------------------------------------------*/
+
+@import "layout";
+
+// FULLPAGE =================================
+
+
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap.scss";
+
+// 4.0 Import Modules
+/*--------------------------------------------------------------
+4.1 Brand
+--------------------------------------------------------------*/
+// @import "modules/about";
+
+/*--------------------------------------------------------------
+4.2 Mission
+--------------------------------------------------------------*/
+// @import "modules/services";
+
+/*--------------------------------------------------------------
+4.3 Season
+--------------------------------------------------------------*/
+// @import "modules/schedule";
+
+/*--------------------------------------------------------------
+4.4 Players
+--------------------------------------------------------------*/
+// @import "modules/spokespeople";
+
+/*--------------------------------------------------------------
+4.5 News
+--------------------------------------------------------------*/
+
+// @import "modules/clients";
+// @import "modules/clips";
+// @import "modules/outlets";
+// @import "modules/blog";
+// @import "modules/affiliates";
+
+
+// @import "fullpage";
+// @import "fullpageFix";
+// @import "../bootstrap/assets/stylesheets/bootstrap";
+
+/*--------------------------------------------------------------
+4.6 Education
+--------------------------------------------------------------*/
+
+// @import "modules/education";
+
+/*--------------------------------------------------------------
+4.7 Sponsor
+--------------------------------------------------------------*/
+
+
+
+// 5.0 Footers
+/*--------------------------------------------------------------
+5.1 Main Footer
+--------------------------------------------------------------*/
+
+// 6.0 Navigation
+/*--------------------------------------------------------------
+6.1 Main nav
+--------------------------------------------------------------*/
+// @import "modules/nav";
+
+// 7.0 Bootstrap
+/*--------------------------------------------------------------
+7.1 Bootstrap CDN
+----------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+7.2 Bootstrap Overwrites
+----------------------------------------------------------*/
+
+
+// testing bootstrap sass modules
+// @import "bootstrap/variables";
+// @import "bootstrap/mixins";
+// @import "bootstrap/carousel";
+// @import "bootstrap/navbar";

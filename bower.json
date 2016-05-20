@@ -1,0 +1,21 @@
+{
+  "name": "georgecrowley",
+  "description": "Gulp workflow for custom WordPress theme",
+  "main": "index.js",
+  "authors": [
+    "Dylan Nirvana"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/dylannirvana/supreme-robot",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

@@ -1,0 +1,95 @@
+// VARIABLES
+
+@include border-box-sizing; // from IE
+
+// Susy
+$susy: (
+	columns: 12,
+	container: 60em,
+	gutters: 1/4,
+	gutter-position: inside
+);
+
+// Breakpoint
+$narrow: 400px;
+$small: 650px;
+$medium: 960px;
+$wide: 1200px;
+
+// Color Palettes 
+$gray	: #313131;	// standard grey
+$ltGray	: lighten(#4d4d4d, 55);	// lighter grey
+
+$red	: #721C1F; // carnegie hall
+// $brown	: #8F6036;
+// $yellow	: lighten(#D7B56C, 30);
+$tan	: #A38D74;
+$purple	: #6F45A3; // -triad
+
+$orange	: #D85C16; // alice tully hall
+$deep	: #742413;
+$aqua	: #008B89; // -complimentary
+
+$blue	: #000D42; // royal albert
+$blood	: #400400;
+// $pink	: #B10782; // -analogous
+$green	: #9AB114; // -triad
+
+
+$skin 	: #D98966; // Miller-Weiner choice
+$bark 	: #B87432; // Miller-Weiner choice
+$gun 	: #8A91AB; // Miller-Weiner choice
+$yellow	: #FFF747; // triad
+$pink 	: #DC38E0; // triad
+
+
+$light	: #fff;
+$pale	: lighten($yellow, 10);
+$dark	: darken($gray, 5); // gray
+
+
+$headerBg			: $ltGray;
+$backgroundColor	: $skin;
+$typeDefault		: $dark;
+$headersub			: $aqua;
+
+// Nav
+$navBrandBg			: $gray;
+$navBackground		: $gray;
+$navForeground		: $light;
+$navHover			: darken($yellow, 5);
+$navActive			: $ltGray;
+
+// Font variables
+$fontSans	: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$fontSerif	: 'Times New Roman', Times, serif !default;
+$fontScript	: 'Times New Roman', Times, serif !default;
+
+// font-weight
+$thin		: 200;	
+$normal		: 400;	
+$bold		: 600;	
+$heavy		: 800;	
+
+// font-family
+$headColor	: $typeDefault;
+$fontColor	: lighten($dark, 20);
+
+$headFont	: $normal 2rem/2rem $fontSans;
+$mainFont	: $thin 1rem/1.6rem $fontSans;
+$callFont	: $bold 1.6rem/2rem $fontScript;
+
+
+// WP VARIABLES
+$size__site-main: -380;
+$size__site-sidebar: 380;
+
+
+
+
+
+
+
+
+
+

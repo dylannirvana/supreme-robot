@@ -1,0 +1,90 @@
+// Overall styles not particular to a section
+// BASE
+
+.single, .archive {
+	// background: $yellow;
+
+	// .wf-loading h1, h2, h3, p {
+	//   font-family: "brandon-grotesque", "kepler-std-extended-display", "grafolita-script";
+	//   visibility: hidden;
+	// }
+	// .wf-active h1, h2, h3, p {
+	//   visibility: visible;
+	// }
+}
+
+body {
+	position: relative;
+	background: $backgroundColor;
+
+	padding-top: 70px;
+	padding-bottom: 100px;
+	font-family: $headFont;
+	font: $headFont;
+	// background: $backgroundColor;
+	// position: relative;
+	border-bottom: 1px solid $ltGray;
+
+	#{headings()} {
+		font-family: $headFont;
+		color: lighten($gray, 15);
+		text-transform: uppercase;
+		padding-bottom: 36px;
+	}
+
+	strong {
+		font-weight: $bold;
+	}
+	p {
+		padding-bottom: 10px;
+		font: $mainFont;
+		color: lighten($gray, 10);
+	}
+
+	img {
+
+	}
+
+	header .deck {
+		// @include breakpoint($small) {
+			p {
+				@include span(6 of 12)
+			}
+
+			// p {
+			// 	@include span(6 at 7)
+			// }
+		// }
+	}
+
+	.scene {
+		padding-top: 70px;
+		padding-bottom: 100px;
+		font-family: $headFont;
+		font: $headFont;
+		// background: $backgroundColor;
+		// position: relative;
+    	border-bottom: 1px solid $ltGray;
+
+		#{headings()} {
+			font-family: $headFont;
+			color: lighten($gray, 15);
+			text-transform: uppercase;
+			padding-bottom: 36px;
+		}
+
+		strong {
+			font-weight: $bold;
+		}
+		p {
+			padding-bottom: 10px;
+			font: $mainFont;
+			color: lighten($gray, 10);
+		}
+
+	}
+
+}
+.wp-core-ui .button-primary {
+	background: $yellow;
+}
